@@ -14,7 +14,6 @@ var users []User
 type User struct {
 	Email    string `json:"email"`
 	Password string `json:"password"`
-	Auth     string `json:"auth"`
 }
 
 func login(w http.ResponseWriter, r *http.Request) {
